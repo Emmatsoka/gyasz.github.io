@@ -1,0 +1,213 @@
+@font-face {
+    font-family: mourning;
+    src: url('mourning.otf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.6s all!important;
+    -webkit-transition: 0.6s all!important;
+    -moz-transition: 0.6s all!important;
+    -ms-transition: 0.6s all!important;
+    -o-transition: 0.6s all!important;
+}
+  
+  body{
+    height: 100vh;
+    background: url('hatter.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+  }
+
+
+  .cimsor{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+  .cimsor h1{
+    background-color: #000000;
+    padding:20px;
+    padding-top:26px;
+    padding-bottom:26px;
+    width: 100%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+    
+
+
+  .kozep{
+    justify-content: center;
+    display: flex;
+  }
+
+  #dash{
+    margin-top: 20px!important;
+
+}
+
+.carousel-inner{
+    border-radius: 0px!important;
+    -webkit-border-radius: 0px!important;
+    -moz-border-radius: 0px!important;
+    -ms-border-radius: 0px!important;
+    -o-border-radius: 0px!important;
+}
+
+
+  #cimsor2 h3{
+    margin-top: 20px!important;
+    background-color: #000000;
+    padding:20px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+#szoveg{
+    background-color: #000000e1;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left:3%;
+    padding-right: 3%;
+    height: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ 
+  ::-webkit-scrollbar-track {
+    background: #090909;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb {
+    background: #373737;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(37, 37, 37);
+  }
+  #dash{
+    border-right: dashed 4px rgba(0, 0, 0, 0.814);
+  }
+  @media screen and (max-width:990px){
+    #dash{
+        border-right: none;
+      }
+  }
+
+   #footer h6{
+    background-color: #000000;
+    padding:20px;
+    width: 100%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+#footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+#footer h6{
+  font-weight: 400!important;
+}
+
+
+#footer a{
+  color: rgb(214, 214, 214) !important;
+  text-decoration: none!important;
+}
+#footer a:hover{
+  padding:5px;
+  color: #afafaf!important;
+}
+
+#kepalatti h5{
+    background-color: #000000;
+    padding:20px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 600!important;
+
+}
+
+@media screen and (max-width: 768px){
+  #kepalatti{
+    display: none;
+  }
+}
+
+#baumann{
+  margin-top: 20px!important;
+}
+
+
+#ures{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+  background-color: #000000;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+
+}
